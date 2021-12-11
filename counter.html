@@ -9,8 +9,16 @@
       <body>
         <div class="counter-info">
             <div class="counter-control">
-              <div class="counter-button-control-first"><button onClick="onFirstButtonClick(this.value)" value="plus">+</button><label id="first">0</label><button onClick="onFirstButtonClick(this.value)" value="minus">-</button></div>
-              <div class="counter-button-control-second"><button onClick="onSecondButtonClick(this.value)"value="plus">+</button><label id="second">0</label><button onClick="onSecondButtonClick(this.value)" value="minus">-</button></div>
+              <div class="counter-button-control-first">
+                <button class="button-plus" onClick="onFirstButtonClick(this.value)" value="plus">+</button>
+                  <label id="first">0</label>
+                <button class="button-subtract" onClick="onFirstButtonClick(this.value)" value="minus">-</button>
+              </div>
+              <div class="counter-button-control-second">
+                <button class="button-plus" onClick="onSecondButtonClick(this.value)"value="plus">+</button>
+                <label id="second">0</label>
+                <button class="button-subtract" onClick="onSecondButtonClick(this.value)" value="minus">-</button>
+              </div>
             </div>
             
             <div class="counter-sum"><label id="sum">sum: 0</label></div>
