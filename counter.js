@@ -1,19 +1,20 @@
-let firstCount = 0;
-let secondCount = 0;
+let firstRowCount = 0;
+let secondRowCount = 0;
 
-function onFirstButtonClick(value) {
-  value == "plus" ? ++firstCount : --firstCount
-  document.getElementById("first").innerHTML = firstCount;
-  sum()
+// onSetCalculateSum
+function onSetFirstRowCountAndCalculateSum(value) {
+  value == "plus" ? ++firstRowCount : --firstRowCount
+  document.getElementById("first").innerHTML = firstRowCount;
+  calculateSum()
 }
 
-
-function onSecondButtonClick(value) {
-  value == "plus" ? ++secondCount : --secondCount
-  document.getElementById("second").innerHTML = secondCount;
-  sum()
+// onCalculateSum
+function onSetSecondRowCountAndCalculateSum(value) {
+  value == "plus" ? ++secondRowCount : --secondRowCount
+  document.getElementById("second").innerHTML = secondRowCount;
+  calculateSum()
 }
 
-function sum() {
-  document.getElementById("sum").innerHTML = "sum: " + (firstCount + secondCount);
+function calculateSum() {
+  document.getElementById("sum").innerHTML = "sum: " + (firstRowCount + secondRowCount);
 }

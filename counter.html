@@ -10,14 +10,14 @@
         <div class="counter-info">
             <div class="counter-control">
               <div class="counter-button-control-first">
-                <button class="button-plus" onClick="onFirstButtonClick(this.value)" value="plus">+</button>
+                <button class="button-plus" onClick="onSetFirstRowCountAndCalculateSum(this.value)" value="plus">+</button>
                   <label id="first">0</label>
-                <button class="button-subtract" onClick="onFirstButtonClick(this.value)" value="minus">-</button>
+                <button class="button-subtract" onClick="onSetFirstRowCountAndCalculateSum(this.value)" value="minus">-</button>
               </div>
               <div class="counter-button-control-second">
-                <button class="button-plus" onClick="onSecondButtonClick(this.value)"value="plus">+</button>
+                <button class="button-plus" onClick="onSetSecondRowCountAndCalculateSum(this.value)"value="plus">+</button>
                 <label id="second">0</label>
-                <button class="button-subtract" onClick="onSecondButtonClick(this.value)" value="minus">-</button>
+                <button class="button-subtract" onClick="onSetSecondRowCountAndCalculateSum(this.value)" value="minus">-</button>
               </div>
             </div>
             <div class="counter-sum"><label id="sum">sum: 0</label></div>
