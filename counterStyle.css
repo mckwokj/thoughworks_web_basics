@@ -5,7 +5,7 @@
 
 .counter-info {
   text-align: center;
-  padding: 200px 700px;
+  padding: 200px 1000px;
 }
 
 .counter-button-control-first {
@@ -20,12 +20,12 @@
 
 .button-plus {
   position: absolute;
-  left: 790px;
+  left: 1050px;
 }
 
 .button-subtract {
   position: absolute;
-  right: 795px;
+  right: 1055px;
 }
 
 
