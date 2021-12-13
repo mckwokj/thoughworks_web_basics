@@ -1,5 +1,5 @@
-var firstCount = 0;
-var secondCount = 0;
+let firstCount = 0;
+let secondCount = 0;
 
 function onFirstButtonClick(value) {
   value == "plus" ? ++firstCount : --firstCount
